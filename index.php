@@ -113,8 +113,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	$biography = $_POST["biography"];
 
 	$serverName = 'localhost';
-	$user = "u47565";
-	$pass = "7165854";
+	$user = "u47568";
+	$pass = "2985253";
 	$dbName = $user;
 
 	$db = new PDO("mysql:host=$serverName;dbname=$dbName", $user, $pass, array(PDO::ATTR_PERSISTENT => true));
